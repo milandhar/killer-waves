@@ -1,0 +1,36 @@
+a {
+  color: white;
+}
+
+.bg-primary {
+  color: #4A8FE7 !important
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #4A8FE7;
+  min-height: 80px;
+}
+
+.navbar-brand {
+  display: inline-block;
+}
+
+.navbar-brand img {
+  max-height: 90px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row!important;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.navbar-brand

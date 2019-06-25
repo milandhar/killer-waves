@@ -2,6 +2,11 @@ a {
   color: white;
 }
 
+ul {
+  padding-inline-start: 20px;
+  height: 90%;
+}
+
 .bg-primary {
   color: #4A8FE7 !important
 }
@@ -18,10 +23,14 @@ a {
 
 .navbar-brand {
   display: inline-block;
+  height: 110px;
+  padding: 0px;
 }
 
 .navbar-brand img {
-  max-height: 90px;
+  top: 0px;
+  max-height: 120px;
+  display: inline-block;
 }
 
 .navbar-nav {
@@ -30,7 +39,21 @@ a {
   flex-direction: row!important;
   align-items: center;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
 }
 
-.navbar-brand
+.container-fluid {
+  background-color: #6D9DC5
+}
+
+h1 {
+  color: #EAF6FF
+}
+
+h2 {
+  color: #EAF6FF
+}
+
+h3 {
+  color: #EAF6FF
+}

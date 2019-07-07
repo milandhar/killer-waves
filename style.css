@@ -1,3 +1,9 @@
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+}
+
 a {
   color: white;
 }
@@ -19,6 +25,19 @@ ul {
 
 .bg-primary {
   color: #4A8FE7 !important
+}
+
+footer{
+  background-color: #214069;
+ bottom: 0;
+}
+
+footer .row {
+  text-align: center;
+}
+
+footer p {
+  width: 100%;
 }
 
 .navbar {
@@ -76,9 +95,6 @@ ul {
   margin-top: 20px;
 }
 
-.footer-row {
-  background-color: #E8B14A
-}
 
 h1 {
   color: #31393C

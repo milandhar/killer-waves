@@ -24,11 +24,13 @@ ul {
 }
 
 .bg-primary {
-  color: #4A8FE7 !important
+  color: #87CEEB !important;
 }
 
 footer{
-  background-color: #214069;
+ /* background-color: #214069; */
+ /* background-color: #042A2B; */
+ background-color: #171D1C;
  bottom: 0;
 }
 
@@ -46,14 +48,15 @@ footer p {
   position: relative;
   justify-content: flex-start;
   align-items: center;
-  background-color: #4A8FE7;
+  /* background-color: #4A8FE7; */
+  background-color: #87CEEB;
   max-height: 90px;
-  border: 5px solid rgba(65, 82, 105, .4);
+  border: 1px solid rgba(65, 82, 105, .4);
   box-sizing: content-box;
 }
 
 .row {
-  border: 5px solid rgba(65, 82, 105, 1);
+  border: 1px solid rgba(65, 82, 105, 1);
 }
 
 .navbar-brand {
@@ -74,12 +77,17 @@ footer p {
   flex-direction: row!important;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
+  width: 100%;
+}
+
+.nav-link {
+  vertical-align: middle;
 }
 
 
 .container-fluid {
-  background-color: #6D9DC5;
+  /* background-color: #6D9DC5; */
+  background-color: #FCFCFC;
 }
 
 .col-6 {
@@ -93,6 +101,16 @@ footer p {
   max-height: 80%;
   vertical-align: middle;
   margin-top: 20px;
+}
+
+.mojFooter p {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-div{
+  display: flex;
 }
 
 

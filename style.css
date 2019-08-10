@@ -4,6 +4,28 @@ body {
   margin: 0;
 }
 
+.left-menu{
+  display: flex;
+  flex-direction: row;
+}
+
+.right-menu{
+  display: flex;
+  flex-direction: row;
+}
+
+.inverted .menu{
+  justify-content: space-between;
+}
+
+.inverted .segment{
+  background-color: #87CEEB !important;
+}
+
+.empty-menu{
+  width: 50%;
+}
+
 a {
   color: white;
 }
@@ -14,7 +36,7 @@ ul {
 }
 
 .jumbotron{
-  background-color: #5C7AFF;
+  background-color: #D1CFE2;
   border-radius: 14px;
   /* border: 3px solid rgba(13, 19, 23, .4); */
   border: 3px solid rgba(65, 82, 105, .4);

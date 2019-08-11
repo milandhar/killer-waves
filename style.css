@@ -9,6 +9,10 @@ body {
   flex-direction: row;
 }
 
+.jumbotron.header{
+  width: 100%
+}
+
 .right-menu{
   display: flex;
   flex-direction: row;
@@ -45,6 +49,10 @@ ul {
   vertical-align: middle;
 }
 
+.margin-bottom{
+  margin-bottom: 10px;
+}
+
 .bg-primary {
   color: #87CEEB !important;
 }
@@ -52,6 +60,9 @@ ul {
 footer{
  /* background-color: #214069; */
  /* background-color: #042A2B; */
+ position: absolute;
+ bottom: 0;
+ width: 100%;
  background-color: #171D1C;
  bottom: 0;
 }
@@ -78,7 +89,7 @@ footer p {
 }
 
 .row {
-  border: 1px solid rgba(65, 82, 105, 1);
+  /* border: 1px solid rgba(65, 82, 105, 1); */
 }
 
 .navbar-brand {
@@ -106,9 +117,9 @@ footer p {
   vertical-align: middle;
 }
 
-
 .container-fluid {
   /* background-color: #6D9DC5; */
+  /* height: 73vh; */
   background-color: #FCFCFC;
 }
 

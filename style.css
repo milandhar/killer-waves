@@ -1,11 +1,29 @@
 body {
-  min-height: 120vh;
+  min-height: 150vh;
   position: relative;
   margin: 0;
 }
 
 #index-body{
   min-height: 100vh;
+}
+
+#index-body h1 {
+  font-size: 3em;
+}
+
+#paragraph-row{
+  margin-top: 20px;
+}
+
+.paragraph-div {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#index-body h4 {
+  margin-bottom: 20px;
 }
 
 #cause-row{
@@ -18,7 +36,9 @@ body {
 }
 
 .jumbotron.header{
-  width: 100%
+  padding-top: 20px;
+  width: 100%;
+  vertical-align: middle;
 }
 
 .right-menu{

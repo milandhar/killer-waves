@@ -1,7 +1,15 @@
 body {
-  min-height: 100vh;
+  min-height: 120vh;
   position: relative;
   margin: 0;
+}
+
+#index-body{
+  min-height: 100vh;
+}
+
+#cause-row{
+  margin-bottom: 20px;
 }
 
 .left-menu{

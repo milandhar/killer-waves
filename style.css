@@ -8,8 +8,24 @@ body {
   min-height: 100vh;
 }
 
+#concert-body{
+  min-height: 180vh;
+}
+
 #index-body h1 {
   font-size: 3em;
+}
+
+#cause-footer-p{
+  padding-right: 24px;
+}
+
+#croc-img {
+  width: 80%;
+}
+
+#concert-footer-p{
+  padding-right: 24px;
 }
 
 #paragraph-row{
@@ -29,6 +45,7 @@ body {
 #cause-row{
   margin-bottom: 20px;
 }
+
 
 .left-menu{
   display: flex;

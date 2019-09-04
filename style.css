@@ -71,6 +71,10 @@ body {
   background-color: #87CEEB !important;
 }
 
+.ui.inverted.segment {
+  background-color: #121CC0	!important;
+}
+
 .empty-menu{
   width: 50%;
 }
@@ -85,10 +89,11 @@ ul {
 }
 
 .jumbotron{
-  background-color: #D1CFE2;
+  /* background-color: #F3EFF5; */
+  background-color: #FCFCFC;
   border-radius: 14px;
   /* border: 3px solid rgba(13, 19, 23, .4); */
-  border: 3px solid rgba(65, 82, 105, .4);
+  border: 3px solid rgba(0,34,0,.4);
   padding: 2rem 1rem;
   height: 90%;
   vertical-align: middle;
@@ -102,13 +107,15 @@ ul {
   color: #87CEEB !important;
 }
 
+
+
 footer{
  /* background-color: #214069; */
  /* background-color: #042A2B; */
  position: absolute;
  bottom: 0;
  width: 100%;
- background-color: #171D1C;
+ background-color: #085D05;
  bottom: 0;
 }
 

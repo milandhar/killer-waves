@@ -71,6 +71,10 @@ body {
   background-color: #87CEEB !important;
 }
 
+.ui.inverted.segment {
+  background-color: #121CC0	!important;
+}
+
 .empty-menu{
   width: 50%;
 }
@@ -102,13 +106,15 @@ ul {
   color: #87CEEB !important;
 }
 
+
+
 footer{
  /* background-color: #214069; */
  /* background-color: #042A2B; */
  position: absolute;
  bottom: 0;
  width: 100%;
- background-color: #002200;
+ background-color: #085D05;
  bottom: 0;
 }
 

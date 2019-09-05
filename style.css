@@ -5,7 +5,7 @@ body {
 }
 
 #index-body{
-  min-height: 100vh;
+  min-height: 105vh;
 }
 
 #concert-body{
@@ -219,9 +219,38 @@ h5 {
   color: #31393C
 }
 
-@media only screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
+
+#index-body{
+  min-height: 135vh;
+}
+
+#index-body .jumbotron h1 {
+  font-size: 2em;
+}
+
 .jumbotron {
-    /* margin-top: 2rem; */
-    padding: 0.5rem 0.5rem;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.index-boxes .col-6 {
+  max-width: 100%;
+  width: 100%;
+}
+
+.index-boxes {
+    flex-direction: column !important;
   }
 }
+
+/* @media screen and (max-width: 375px) { */
+  /* html {
+    width: 150vw;
+  } */
+  /* #index-body{
+    min-height: 140vh;
+    width: 150vw;
+  }
+} */
